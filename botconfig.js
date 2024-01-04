@@ -2,7 +2,7 @@ module.exports = {
   Admins: ["UserID", "UserID"], //DEV'S
   ExpressServer: true, 
   DefaultPrefix: process.env.Prefix || "/",
-  Port: 1922, //Which port website gonna be hosted
+  Port: 443, //Which port website gonna be hosted
   SupportServer: "https://discord.io/sciencegear", // Support Server Link
   Token: process.env.Token || "MTE5MjQ1NzM1Mjc4MDIwMjA0NA.GYoZtL.d_tK1DMSxocEciJbUa-bwXNNnOa1PyllDrg6Ls", // Discord Bot Token
   ClientID: process.env.Discord_ClientID || "1192457352780202044", 
